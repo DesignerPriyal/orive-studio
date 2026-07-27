@@ -1,15 +1,22 @@
 import "./globals.css";
-import { Inter, Cormorant_Garamond } from "next/font/google";
+import {
+  Inter,
+  Playfair_Display,
+} from "next/font/google";
 
 const inter = Inter({
   subsets: ["latin"],
 });
 
-const cormorant = Cormorant_Garamond({
+const playfair = Playfair_Display({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-serif",
 });
+
+export const metadata = {
+  title: "Orive Design Studio",
+  description: "Branding, UI/UX, Packaging & Digital Experiences",
+};
 
 export default function RootLayout({
   children,
@@ -19,15 +26,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} ${cormorant.variable}`}
+        className={`${inter.className} ${playfair.variable}`}
       >
         {children}
       </body>
     </html>
   );
 }
-import { Playfair_Display } from "next/font/google";
-
-const playfair = Playfair_Display({
-  subsets: ["latin"],
-});<body className={playfair.className}></body>
