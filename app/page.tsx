@@ -26,13 +26,6 @@ export default function Home() {
       </a>
 
       <a
-        href="#work"
-        className="text-zinc-400 hover:text-white transition-colors duration-300"
-      >
-        Work
-      </a>
-
-      <a
         href="#process"
         className="text-zinc-400 hover:text-white transition-colors duration-300"
       >
@@ -288,15 +281,18 @@ What we make,end to end.
   </div>
 
 
-</section>{/* Process Section */}
-<section className="border-t border-zinc-800 px-12 py-32 bg-black text-white">
+</section>
+{/* Process Section */}
+<section 
+id="process"
+className="border-t border-zinc-800 px-12 py-32 bg-black text-white">
 
   {/* Header */}
   <div className="grid grid-cols-12 mb-24">
 
     <div className="col-span-3">
       <p className="uppercase tracking-[0.3em] text-zinc-500">
-        (04) — PROCESS
+        (03) — PROCESS
       </p>
     </div>
 
@@ -415,7 +411,7 @@ What we make,end to end.
 
     <div className="col-span-3">
       <p className="uppercase tracking-[0.3em] text-zinc-500">
-        (05) — TESTIMONIALS
+        (04) — TESTIMONIALS
       </p>
     </div>
 
@@ -486,10 +482,10 @@ What we make,end to end.
     <div className="pr-20">
 
       <p className="uppercase tracking-[0.35em] text-zinc-500 mb-12">
-        (08) — CONTACT
+        (05) — CONTACT
       </p>
 
-      <h2 className="font-serif text-[120px] leading-[0.95] mb-12 max-w-[650px]">
+      <h2 className="font-serif text-[100px] leading-[0.95] mb-12 max-w-[650px]">
         Let's build
         <br />
         something
@@ -546,7 +542,7 @@ What we make,end to end.
         <input
           type="text"
           placeholder="Alex Doe"
-          className="w-full bg-transparent border-b border-zinc-600 pb-5 text-4xl outline-none placeholder:text-zinc-700"
+          className="w-full bg-transparent border-b border-zinc-500 pb-5 text-3xl outline-none placeholder:text-zinc-700"
         />
       </div>
 
@@ -559,7 +555,7 @@ What we make,end to end.
         <input
           type="email"
           placeholder="alex@company.com"
-          className="w-full bg-transparent border-b border-zinc-600 pb-5 text-4xl outline-none placeholder:text-zinc-700"
+          className="w-full bg-transparent border-b border-zinc-500 pb-5 text-3xl outline-none placeholder:text-zinc-700"
         />
       </div>
 
@@ -572,7 +568,7 @@ What we make,end to end.
         <input
           type="text"
           placeholder="Company Inc."
-          className="w-full bg-transparent border-b border-zinc-600 pb-5 text-4xl outline-none placeholder:text-zinc-700"
+          className="w-full bg-transparent border-b border-zinc-500 pb-5 text-3xl outline-none placeholder:text-zinc-700"
         />
       </div>
 
@@ -594,7 +590,7 @@ What we make,end to end.
           ].map((item) => (
             <button
               key={item}
-              className="px-8 py-4 border border-zinc-700 rounded-full hover:border-orange-300 transition"
+              className="px-8 py-4 border border-zinc-600 rounded-full hover:border-orange-300 transition"
             >
               {item}
             </button>
@@ -613,7 +609,7 @@ What we make,end to end.
         <textarea
           rows={4}
           placeholder="A short brief, budget, and timeline."
-          className="w-full bg-transparent border-b border-zinc-600 pb-5 text-3xl outline-none resize-none placeholder:text-zinc-700"
+          className="w-full bg-transparent border-b border-zinc-500 pb-5 text-3xl outline-none resize-none placeholder:text-zinc-700"
         />
       </div>
 
