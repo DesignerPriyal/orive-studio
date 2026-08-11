@@ -212,7 +212,7 @@ export default function Footer() {
             </p>
 
             <a
-              href="mailto:hello@orive.design"
+              href="work@orivedesignstudio.com"
               className="
                 group
                 mt-6
@@ -226,7 +226,7 @@ export default function Footer() {
                 break-all
               "
             >
-              hello@orive.design
+              work@orivedesignstudio.com
 
               <ArrowUpRight
                 className="
