@@ -6,15 +6,11 @@ import { ArrowUpRight, ArrowUp } from "lucide-react";
 const socialLinks = [
   {
     name: "Instagram",
-    href: "https://instagram.com/",
+    href: "https://www.instagram.com/orivedesignstudio?igsh=ejg4czYxYjNpeWxo",
   },
   {
     name: "LinkedIn",
-    href: "https://linkedin.com/",
-  },
-  {
-    name: "Behance",
-    href: "https://behance.net/",
+    href: "https://www.linkedin.com/company/orivedesignstudio.com",
   },
 ];
 
